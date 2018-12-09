@@ -2,18 +2,7 @@ DROP DATABASE IF EXISTS poke_pedia;
 CREATE DATABASE poke_pedia;
 \c poke_pedia
 
-CREATE TABLE pokemon(
-  id serial primary key, 
-  name varchar, 
-  type1 varchar, 
-  type2 varchar, 
-  hitpoints int,
-  attack int,
-  defense int,
-  speed int, 
-  legendary boolean,
-  img varchar
-);
+CREATE TABLE pokemon (id serial primary key, name varchar, type1 varchar, type2 varchar, hitpoints int,attack int,defense int,speed int, legendary boolean,img varchar);
 
 INSERT INTO pokemon(id, name, type1, type2, hitpoints, attack, defense, speed, legendary, img) VALUES
 (1,'Bulbasaur','Grass','Poison',45,49,49,45,false,'https://static.giantbomb.com/uploads/scale_small/13/135472/1891758-001bulbasaur.png'),
