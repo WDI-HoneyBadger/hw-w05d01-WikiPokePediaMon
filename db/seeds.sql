@@ -1,4 +1,4 @@
-DROP DATABASE IF EXISTS poke_pedia;
+-- DROP DATABASE IF EXISTS poke_pedia;
 CREATE DATABASE poke_pedia;
 \c poke_pedia
 
