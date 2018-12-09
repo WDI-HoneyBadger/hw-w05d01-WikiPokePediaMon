@@ -1,0 +1,24 @@
+{
+  "name": "hw-w05d01-wikipokepediamon",
+  "version": "1.0.0",
+  "description": "![](https://media.giphy.com/media/xuXzcHMkuwvf2/giphy.gif)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YA7MO/hw-w05d01-WikiPokePediaMon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YA7MO/hw-w05d01-WikiPokePediaMon/issues"
+  },
+  "homepage": "https://github.com/YA7MO/hw-w05d01-WikiPokePediaMon#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mustache-express": "^1.2.8",
+    "pg-promise": "^8.5.3"
+  }
+}
