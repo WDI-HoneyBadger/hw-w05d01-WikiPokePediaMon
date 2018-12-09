@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <a href="/">Home</a>
+    <h1>POKEMON INDEX</h1>
+    {{#pokemonList}}
+    <!-- ID in Database should start with 0, but it starts with 1.. link will show the next pokemon. -->
+    <h3>Name: <a href="/pokemons/{{id}}">{{name}}</a></h3> 
+    <h4>Primary type: {{type1}}</h4>
+    <h4>Secondary type: {{type2}}</h4>
+    <h5>Hit points: {{hitpoints}}</h5>
+    <h5>Attack: {{attack}}</h5>
+    <h5>Defense: {{defense}}</h5>
+    <h5>Speed: {{Speed}}</h5>
+    <h5>Is it legendary? -> {{legendary}}</h5>
+    <img src="{{img}}" alt="Pokemon Image">
+    <hr>
+    {{/pokemonList}}
+</body>
+</html>
