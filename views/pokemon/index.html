@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+        <a href="/">Get back to home page</a>
+
+        <h2><span style ="color:red">My Love to Dalal <3 </span></h2>
+
+        <div>
+    {{#pokemon}}
+
+    <img src="{{img}}" alt="{{name}}">
+    <p>name: {{name}}</p>
+    <p>Type1: {{type1}}</p>
+    <p>Type2: {{type2}}</p>
+    <p>hitpoints: {{hitpoints}}</p>
+    <p>Attack: {{attack}}</p>
+    <p>Defense: {{defense}}</p>
+    <p>Speed: {{speed}}</p>
+    <p>Legendary: {{legendary}}</p>
+    
+
+
+  {{/pokemon}}
+</div>
+  
+  <hr>
+</body>
+</html>
