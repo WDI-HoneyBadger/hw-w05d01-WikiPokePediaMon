@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pokemon List</title>
+</head>
+<body>
+  {{#pokes}}
+    <ul>
+      <li>name: {{name}}</li>
+      <li>type1: {{type1}}</li>
+      <li>type2: {{type2}}</li>
+      <li>hitpoints: {{hitpoints}}</li>
+      <li>attack: {{attack}}</li>
+      <li>defense: {{defense}}</li>
+      <li>speed: {{speed}}</li>
+      <li>legendary: {{legendary}}</li>
+      <img src={{img}} alt="{{name}}">
+    </ul>
+  {{/pokes}}
+</body>
+</html>`
