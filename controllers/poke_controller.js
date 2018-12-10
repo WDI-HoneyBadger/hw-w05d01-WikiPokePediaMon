@@ -13,6 +13,7 @@ router.get('/', pokemon.getAll, function(req, res){
 
 router.get("/:id", pokemon.getAll, function(req, res){
     var pokemonId = req.params.id;
+    pokemonId = parseInt(pokemonId) - 1;
     var pokemonList = res.locals.pokemons;
     var mustacheData = {
         name: pokemonList[pokemonId].name,
