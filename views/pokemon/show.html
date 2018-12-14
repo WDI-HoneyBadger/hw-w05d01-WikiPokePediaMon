@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel='stylesheet' type='text/css' href='/static/styles/styles.css'>
+  <title>Pokemon: {{name}}</title>
+</head>
+<body>
+<div class="show-pokemon">
+  <h1>{{name}}</h1>
+  <div class="links">
+    <a href="/">Pokemon Home</a>
+    <a href="/pokemon">All Pokemon</a>
+  </div>
+  <img src="{{img}}" alt="{{name}}">
+  <div class="pokemon-traits">
+    <h3>types: {{type1}} {{type2}}</h3>
+    <h3>hitpoints: {{hitpoints}}</h3>
+    <h3>attack: {{attack}}</h3>
+    <h3>defense: {{defense}}</h3>
+    <h3>speed: {{speed}}</h3>
+    <h3>legendary: {{legendary}}</h3>
+  </div>
+</div>
+
+</body>
+</html>
