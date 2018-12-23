@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>show po</h1>
+<a href="/">home page</a>
+{{#pokemons}}
+<ul>
+        <li><a href="pokemon/{{id}}">{{name}} </a></li>
+        <li>{{type1}} </li>
+        <li>{{type2}} </li>
+        <li>{{hitpoints}} </li>
+        <li>{{attack}} </li>
+        <li>{{defense}} </li>
+        <li>{{speed}} </li>
+        <li><img src="{{img}}">
+        </li>
+    </ul>
+    {{/pokemons}}
+</body>
+</html>
